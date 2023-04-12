@@ -1,0 +1,12 @@
+export enum HazardRateRunStatus {
+    NEW = "NEW",
+    AGING = "AGING",
+    AGED = "AGED",
+    QUEUED = "QUEUED",
+    CALCULATING = "CALCULATING",
+    CALCULATED = "CALCULATED",
+    IMPORTING = "IMPORTING",
+    IMPORTED = "IMPORTED",
+    PUBLISHED = "PUBLISHED",
+    ERROR = "ERROR",
+}
